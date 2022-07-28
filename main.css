@@ -212,7 +212,7 @@ nav {
   text-align: center;
 }
 
-@media screen and (min-width: 375px) {
+@media (min-width: 375px) {
   .containerr {
     display: flex;
     padding: 15px;
@@ -227,10 +227,11 @@ nav {
 
   .footer {
     display: block;
+    padding: 20px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .containerr {
     display: flex;
     padding: 15px;
